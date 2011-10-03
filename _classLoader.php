@@ -1,7 +1,6 @@
 <?php
 /*** nullify any existing autoloads ***/
 spl_autoload_register(null, false);
-
 /*** specify extensions that may be loaded ***/
 spl_autoload_extensions('.php');
 
