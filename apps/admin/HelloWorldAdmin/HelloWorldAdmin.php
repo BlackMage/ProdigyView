@@ -6,10 +6,8 @@ class HelloWorldAdmin{
 	}//end constructor
 	
 	function commandInterpreter($command, $params){
-
 	
 			$this->mainPanel($params);
-		
 
 	}//end commandIntepreter
 
